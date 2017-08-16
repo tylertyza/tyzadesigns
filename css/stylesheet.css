@@ -190,12 +190,12 @@ input[type=submit]:hover {
 
 /** MOBILE
 ----------------------------------- **/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   h3 {
   font-size: 20px; }
   svg {
   width: auto;
-  height: 10%; }
+  height: 64px; }
   img#clogo {
     width: 75%;
     height: auto; }
