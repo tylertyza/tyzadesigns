@@ -41,3 +41,41 @@ img#logo {
     font-size: 12px;
     text-align: center;
   }
+
+  /** MOBILE **/
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 90%; }
+        img#logo {
+          margin-bottom: 10%;
+          width: 1024px;
+          height: auto; }
+        h1 {
+          font-size: 55px; }
+        h2 {
+          font-size: 45px } }
+        
+@media screen and (max-width: 800px) {
+    body {
+        width: 90%; }
+        img#logo {
+          margin-bottom: 10%;
+          width: 720px;
+          height: auto; }
+        h1 {
+          font-size: 32px; }
+        h2 {
+          font-size: 22px } }
+
+@media screen and (max-width: 550px) {
+    body {
+        width: 90%; }
+        img#logo {
+          margin-bottom: 10%;
+          width: 400px;
+          height: auto; }
+        h1 {
+          font-size: 28px; }
+        h2 {
+          font-size: 16px } }
