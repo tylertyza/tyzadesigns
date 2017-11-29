@@ -1,87 +1,29 @@
-/** FONTS
------------------------------------ **/
-@font-face {
-  font-family: 'Baron';
-  src: url("../assets/fonts/font.ttf") format("truetype"); }
+/** NATIVE **/
 
-/** NATIVE
------------------------------------ **/
 body, html {
   margin: 0;
   padding: 0;
-  background: #0F0F0E;
-  color: #FFFFFF;
-  font-family: 'Baron', sans-serif; }
+  background: #ffffff; }
 
-body {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin: auto;
-  align-items: center;
-  flex-direction: column; }
+img#background {
+  position: fixed; }
+img#backgroundm {
+  display: none; }
+img#website {
+  position: absolute; }
+img#websitem {
+  display: none; }
 
-#content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+/** MOBILE **/
 
-img#logo {
-  margin-bottom: 20%;
-  width: 256px;
-  height: auto;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none; }
-
-  h1 {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 12px;
-    text-align: center;
-  }
-
-  /** MOBILE **/
-
-@media screen and (max-width: 1000px) {
-    body {
-        width: 90%; }
-        img#logo {
-          margin-bottom: 10%;
-          width: 550px;
-          height: auto; }
-        h1 {
-          font-size: 40px; }
-        h2 {
-          font-size: 30px } }
-        
-@media screen and (max-width: 800px) {
-    body {
-        width: 90%; }
-        img#logo {
-          margin-bottom: 10%;
-          width: 520px;
-          height: auto; }
-        h1 {
-          font-size: 32px; }
-        h2 {
-          font-size: 22px } }
-
-@media screen and (max-width: 550px) {
-    body {
-        width: 90%; }
-        img#logo {
-          margin-bottom: 10%;
-          width: 350px;
-          height: auto; }
-        h1 {
-          font-size: 28px; }
-        h2 {
-          font-size: 16px } }
+@media screen and (max-width: 980px) {
+  img#background {
+    display: none; }
+  img#backgroundm {
+    position: fixed;
+    display: block; } 
+  img#website {
+    display: none; } 
+  img#websitem {
+    position: absolute;
+    display: block; } }
